@@ -208,10 +208,6 @@ def decrypt_wengine_url(encrypted_hex, key, iv):
 
 本工具是通过分析公开的前端JavaScript代码实现的加解密功能，旨在帮助理解WebVPN系统的工作原理。
 
-## 📄 许可证
-
-本项目采用 MIT 许可证 - 详见 [LICENSE](LICENSE) 文件。
-
 ## 🙏 致谢
 
 感谢东北大学网络中心提供的WebVPN服务，使得我们有机会学习和研究现代Web加密技术的实现。
