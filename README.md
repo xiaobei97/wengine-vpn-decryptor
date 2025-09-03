@@ -81,8 +81,6 @@ pip install pycryptodome
 
 ## 🚀 使用方法
 
-### 交互式解密
-
 ```bash
 python wengine_decryptor.py
 ```
