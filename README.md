@@ -51,14 +51,13 @@ v = function(text, e, t) {
 1. **浏览器开发者工具**：在登录后的页面中检查Vue组件的状态数据
 2. **网络请求分析**：观察登录过程中的API响应数据
 3. **源代码搜索**：在JS文件中搜索 `wrdvpnKey` 和 `wrdvpnIV` 关键字
+<img width="1206" height="796" alt="image" src="https://github.com/user-attachments/assets/73579809-08b0-44f6-8de4-ac53bec50a79" />
 
 最终在系统状态中找到了关键的加密参数：
 ```javascript
 "wrdvpnIV": "b0A58a69394ce73@",
 "wrdvpnKey": "b0A58a69394ce73@"
 ```
-<img width="1335" height="844" alt="image" src="https://github.com/user-attachments/assets/b95de30a-2ed7-43a0-92d9-dd3e42a417ee" />
-
 
 #### 3. 加密算法确认
 
@@ -75,11 +74,20 @@ var l = c.a.ModeOfOperation.cfb;
 - Python 3.6+
 - pip 包管理工具
 
+### 安装依赖
+
+```bash
+# 克隆项目
+git clone https://github.com/xiaobei97/wengine-vpn-decryptor.git
+cd wengine-vpn-decryptor
+
 # 安装加密切依赖
 pip install pycryptodome
 ```
 
 ## 🚀 使用方法
+
+### 交互式解密
 
 ```bash
 python wengine_decryptor.py
